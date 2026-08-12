@@ -133,3 +133,22 @@ lapis pertahanan (prompt doang), tapi dilapis dari beberapa sisi.
 - Rate limiting per IP/session biar gak di-spam (`express-rate-limit`)
 - Simpan history chat per session biar bot punya konteks percakapan (multi-turn)
 - Logging semua pertanyaan yang ditolak bot, buat monitoring percobaan misuse
+
+1. POST Chat 
+Method: POST
+URL: http://localhost:3000/api/chat
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/cb15cb9e-5c81-48e4-9b3a-67d5eafbdc2a" />
+
+2. POST Chat 
+Method: POST
+URL: http://localhost:3000/api/chat
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/cccd1a05-4bd4-4f96-b92e-73726b4f1cb4" />
+
+3. GET Chat History
+Method: GET
+URL: http://localhost:3000/api/chat/history/1
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/3f57e340-7d22-4b7a-b8a2-3edfd9bcf916" />
+
+2. Pengujian Antarmuka UI (Frontend)
+📸 Tampilan UI Chat AI:
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/c96dda10-84c6-4b5a-83a3-dac4f79c1692" />
