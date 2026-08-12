@@ -26,6 +26,7 @@ app.use(
 app.use('/api/admin', adminRoutes);
 app.use('/api/products', productRoutes);
 app.use('/api/chat', chatRoutes);
+app.use(express.static('public'));
 
 app.get('/', (req, res) => {
   res.json({ message: 'CS Bot API jalan bre 🤖' });
